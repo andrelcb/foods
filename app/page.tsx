@@ -1,11 +1,8 @@
 import { FunctionComponent } from "react";
+import Header from "./_components/header";
 
 const home: FunctionComponent = () => {
-  return (
-    <div className="mx-2 bg-primary p-2">
-      <h1>Hello</h1>
-    </div>
-  );
+  return <Header />;
 };
 
 export default home;
